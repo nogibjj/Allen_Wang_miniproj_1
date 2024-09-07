@@ -5,10 +5,9 @@ format:
 	black *.py
 
 lint:
-	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
+	pylint --disable=R,C --ignore-patterns=test_.*?py $(wildcard *.py)
 
 test: 
 	python -m pytest -cov=main test_main.py
 
-all: 
-	install format lint test
+all: install format lint test
