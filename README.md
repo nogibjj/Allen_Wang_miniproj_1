@@ -31,7 +31,7 @@ This project includes a Python development environment configured with a `.devco
 
     ```bash
     git clone https://github.com/nogibjj/Allen_Wang_miniproj_1.git
-    cd python-project
+    cd Allen_Wang_miniproj_1
     ```
 
 2. **Install dependencies:**
